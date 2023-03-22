@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--stylesheet-->
+    <link rel="stylesheet" href="CSS\style.css">
+    <!-- favicon link -->
+    <link rel="icon" href="Image\Fevicon.jpg">
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- include some javascripts in head section of the html-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!--Font awemone link-->
+    <script src="https://kit.fontawesome.com/4593ef1edb.js" crossorigin="anonymous"></script>
+    <title>Crystal</title>
+</head>
+
+<body>
+
+    <!--title section-->
+
+    <section id="home" class="home">
+        <!--Navbar-->
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top"> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="mx-auto d-sm-flex">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#facilities">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#deal">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#client-review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Galary-box">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text">
+                    <h1 class="top-text">IT'S TIME TO CELEBRATE!</h1>
+                    <p class="lorem-text">THE BEST <span style="color: green;">EVENT ORGANIZER</span></p>
+                    <a href="#featured-box">
+                        <button type="button" class="btn btn-success button">Contact US</button>
+                    </a>
+                </div>
+                <!--book-image-->
+                <div class="col-lg-6">
+                    <div class="column">
+                        <img class="icon" src="Image\event.jpg" alt="Event-1">
+                    </div>
+                    <div class="column">
+                        <img class="icon" src="Image\iconevent.jpg" alt="Event-2">
+                    </div>
+                    <div class="column">
+                        <img class="icon" src="Image\iconevent1.jpg" alt="Event-3">
+                    </div>
+                    <div class="stand">
+                        <img style="width: 100%;" src="Image\stand.png" alt="stand">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Facilities-->
+
+    <section id="facilities">
+        <h2 style="padding-bottom: 2rem;"><span style="color: green;">OUR</span> SERVICES</h2>
+
+        <div class="row">
+            <div class="feature-box col-lg-3 col-md-4 col-sm-6">
+                <i class="icon-2 fa-solid fa-music fa-2x"></i>
+                <h4 class="facility-text">Entertainment</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="feature-box col-lg-3 col-md-4 col-sm-6">
+                <i class="icon-2 fa-solid fa-utensils fa-2x"></i>
+                <h4 class="facility-text">Food & Drinks</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur</p>
+            </div>
+
+            <div class="feature-box col-lg-3 col-md-4 col-sm-6">
+                <i class="icon-2 fa-solid fa-photo-film fa-2x"></i>
+                <h4 class="facility-text">Photos & Video</h4>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <div class="feature-box col-lg-3 col-md-4 col-sm-6">
+                <i class="icon-2 fa-solid fa-location-dot fa-2x"></i>
+                <h4 class="facility-text">Venue Selection</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Gallery-Box-->
+
+    <section style="padding-bottom: 5rem;" id="Galary-box">
+        <h2 style="padding-bottom: 2rem;"><span style="color: green;">OUR</span> GALLERY</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row images">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img style="height: 100%; width: 100%;" src="Image\g-1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img style="height: 100%; width: 100%;" src="Image\g-2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row images">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img style="height: 100%; width: 100%;" src="Image\g-5.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img style="height: 100%; width: 100%;" src="Image\g-6.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+
+                        <div class="row images">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img style="height: 100%; width: 100%;" src="Image\g-3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img style="height: 100%; width: 100%;" src="Image\g-4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row images">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img style="height: 100%; width: 100%;" src="Image\g-7.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img style="height: 100%; width: 100%;" src="Image\g-8.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row images">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img style="height: 100%; width: 100%;" src="Image\g-9.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img style="height: 100%; width: 100%;" src="Image\event.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </section>
+
+    <section id="subscribe">
+        <!--Form-->
+        <form action="mailto:sakshichauhan.cti@gmail.com" method="post">
+            <h4 style="color: white;">Subscribe For Latest Updates</h4>
+            <input class="email" type="email" name="Your Email" id="">
+            <br>
+            <a href="subscribe.html" target="_blank">
+                <button type="button" class="btn btn-success button-subscribe">Subscribe</button>
+
+            </a>
+    </section>
+
+    <section id="Latest-event   ">
+        <h2 style="padding-bottom: 2rem; padding-top: 2rem;"><span style="color: green;">LATEST</span> EVENT</h2>
+        <div class="container">
+            <div class="row images">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body ">
+                            <img style="height: 50%; width: 50%;" src="Image\event3.webp" alt="">
+                            <h3>Upcoming <span style="color: green;">Event</span></h3>
+                            <p><b>Date: 12 April <br>NewYork</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img style="height: 100%; width: 100%;" src="Image\hilife event.webp" alt="">
+                            <h3>Upcoming <span style="color: green;">Event</span></h3>
+                            <p><b>Date: 24-25-26 March <br>New Delhi</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h3><span style="color: green;" > About</span> Us</h3>
+    <section style="padding-bottom: 3rem;" id="deal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text">
+                    <h1 class="top-text">We Will Give A Very Special <br> Celebration To You</h1>
+                    <p class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi
+                        sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. 
+                       <br> Ut aliquet tristique labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#NEW ARRIVALS">
+                        <button type="button" class="btn btn-success button">Contact Us</button>
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="column">
+                        <img class="deal-img" src="Image\about-img.jpg" alt="About Us">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--CLIENT REVIEW-->
+
+    <section id="client-review">
+        <h3> <span style="color: green;" > Client's </span> Review</h3>
+        <div class="container">
+            <div class="row images">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body ">
+                            <img class="client_img" src="Image\pic-1.png" alt="">
+                            <h5>John Deo</h5>
+                            <p style="line-height: 1%;">Happy Client</p>
+                            <p class="client_review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                            <p>⭐⭐⭐⭐</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="client_img" src="Image\pic-2.png" alt="">
+                            <h5>John Deo</h5>
+                            <p style="line-height: 1%;">Happy Client</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                            <p>⭐⭐⭐⭐</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="client_img" src="Image\pic-3.png" alt="">
+                            <h5>John Deo</h5>
+                            <p style="line-height: 1%;">Happy Client</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                            <p>⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Blogs">
+        <h3> <span style="color: green;" >Our</span> Blog's</h3>
+        <div class="container">
+            <div class="row images">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body ">
+                            <img class="blog_img" src="Image\blog-1.jpg" alt="">
+                            <h5 style="text-align: left; padding-top: 5%;">Blog Title Goes Here</h5>
+                            <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                            <button type="button" class="btn btn-success button read_more_button">Read More</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="blog_img" src="Image\blog-2.jpg" alt="">
+                            <h5 style="text-align: left; padding-top: 5%" style="text-align: left;">Blog Title Goes Here
+                            </h5>
+                            <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                            <button type="button" class="btn btn-success button read_more_button">Read More</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="blog_img" src="Image\blog-3.jpg" alt="">
+                            <h5 style="text-align: left; padding-top: 5%">Blog Title Goes Here</h5>
+                            <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                            <button type="button" class="btn btn-success button read_more_button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location_links">
+        <div class="row">
+            <div class="footer1 col-lg-3">
+                <h5><strong>Our Locations</h5></strong>
+                <p><i class="fa-solid fa-location-dot footer1_icon"></i>India</p>
+                <p><i class="fa-solid fa-location-dot footer1_icon"></i>USA</p>
+                <p><i class="fa-solid fa-location-dot footer1_icon"></i>Russia</p>
+                <p><i class="fa-solid fa-location-dot footer1_icon"></i>France</p>
+                <p><i class="fa-solid fa-location-dot footer1_icon"></i>Japan</p>
+                <p><i class="fa-solid fa-location-dot footer1_icon"></i>Africa</p>
+            </div>
+            <div class="footer1 col-lg-3">
+                <h5><strong>Quick Links</h5></strong>
+                <p><i class="fa-solid fa-arrow-right footer1_icon"></i>Home</p>
+                <p><i class="fa-solid fa-arrow-right footer1_icon"></i>Featured</p>
+                <p><i class="fa-solid fa-arrow-right footer1_icon"></i>Arrival</p>
+                <p><i class="fa-solid fa-arrow-right footer1_icon"></i>Reviews</p>
+                <p><i class="fa-solid fa-arrow-right footer1_icon"></i>Blogs</p>
+            </div>
+            <div class="footer1 col-lg-3">
+                <h5><strong>Extra Links</h5></strong>
+                <p><i class="fa-solid fa-arrow-right footer1_icon"></i>Account Info</p>
+                <p><i class="fa-solid fa-arrow-right footer1_icon"></i>Ordered Item</p>
+                <p><i class="fa-solid fa-arrow-right footer1_icon"></i>Privacy Policy</p>
+                <p><i class="fa-solid fa-arrow-right footer1_icon"></i>Payment Method</p>
+                <p><i class="fa-solid fa-arrow-right footer1_icon"></i>Our Service</p>
+            </div>
+            <div class="footer1 col-lg-3">
+                <h5><strong>Contact Info</h5></strong>
+                <p><i class="fa-solid fa-phone-flip footer1_icon"></i>+123-456-7890</p>
+                <p><i class="fa-solid fa-phone-flip footer1_icon"></i>+111-222-3333</p>
+                <p><i class="fa-solid fa-envelope footer1_icon"></i>sakshichauhan.cti@gmail.com</p>
+                <img src="Image\worldmap.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer_icon ">
+            <a href="https://facebook.com/"><i class=" social_icon fa-brands fa-facebook"></i></a>
+            <a href="https://linkedin.com/"><i class=" social_icon fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/"><i class=" social_icon fa-brands fa-square-twitter"></i></a>
+            <a href="https://instagram.com/"><i class=" social_icon fa-brands fa-square-instagram"></i></a>
+            <a href="https://pinterest.com/"><i class=" social_icon fa-brands fa-pinterest"></i> </a>
+            <p class="created">Created By <span style="color: green;">Sakshi Chauhan</span> | All Rights Reserved</p>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

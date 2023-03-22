@@ -1,0 +1,217 @@
+p {
+    color: #8f8f8f;
+    font-size: small;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  h5 {
+    font-weight: bold;
+  }
+  
+  h6 {
+    color: green;
+    font-weight: bolder;
+  }
+  
+  /*Class section*/
+  .home {
+    background: url(../Image/banner-bg.jpg);
+  }
+  
+  .icon {
+    height: 18rem;
+    width: 100%;
+    margin-top: 1em;
+    padding-bottom: 0.3xrem;
+    padding-top: 3rem;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .text {
+    margin-top: 80px;
+  }
+  
+  .button {
+    width: 25%;
+  }
+  
+  .top-text {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 15%;
+  }
+  
+  .lorem-text {
+    line-height: 1.5em;
+    font-size: larger;
+  }
+  
+  .icon-2 {
+    color: green;
+    margin-bottom: 1rem;
+  }
+  
+  .facility-text {
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .slider-book {
+    text-align: center;
+  }
+  
+  .images {
+    text-align: center;
+  }
+  
+  .button-subscribe {
+    width: 12%;
+    height: 5%;
+    margin-right: 7%;
+    margin-top: 1%;
+  }
+  
+  .email {
+    padding-right: 10%;
+  }
+  
+  .new_arrival2 {
+    padding-top: 2%;
+  }
+  
+  .deal-img {
+    height: 25rem;
+    padding-top: 30%;
+    padding-left: 20%;
+  }
+  
+  .client_img {
+    width: 20%;
+    border-radius: 50%;
+    padding-bottom: 5%;
+  }
+  
+  .blog_img {
+    width: 100%;
+  }
+  
+  .read_more_button {
+    width: 40%;
+    margin-right: 60%;
+  }
+  
+  .footer1_icon {
+    color: green;
+    padding: 2%;
+  }
+  
+  .social_icon {
+    margin: 20px 5px;
+    color: green;
+  }
+  
+  .created {
+    font-size: 80%;
+  }
+  
+  /*Id Section*/
+  #facilities {
+    background: url(../Image/black-bg.jpg);
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  #slider {
+    overflow: hidden;
+  }
+  
+  #slider figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+  }
+  
+  #subscribe {
+    background: url(../Image/bg-image.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 10%;
+    padding-right: 10%;
+    text-align: right;
+    padding-bottom: 5%;
+  }
+  
+  #deal {
+    background: url(../Image/banner-bg.jpg);
+    margin-top: 5%;
+  }
+  
+  #location_links {
+    padding: 7% 15%;
+  }
+  
+  #footer {
+    text-align: center;
+  }
+  
+  /*Subscribe page*/
+  /*Form */
+  #subscribe_page {
+    text-align: center;
+    padding-top: 10%;
+    font-size: x-large;
+  }
+  
+  /*class selector*/
+  .subscribe_here {
+    font-family: 'century Gothic', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 2.25rem;
+  }
+  
+  .stay_updated {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.125rem;
+  }
+  
+  .submit_button {
+    background-color: #FFCC99;
+    border-color: white;
+    height: 35px;
+    width: 85px;
+  }
+  
+  .form-text {
+    padding-right: 13%;
+  }
+  
+  #container {
+    background: url(../Image/banner-bg.jpg);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+  }
+  
+  #Galary-box {
+    background: url(../Image/bg-2.webp);
+
+  }
+
